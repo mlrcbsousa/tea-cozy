@@ -1,0 +1,84 @@
+@import 'components/navbar.css';
+@import 'components/footer.css';
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 69px 0 0 0;
+}
+h2, h3, h4 {
+  margin: 0;
+  padding: 15px 5px;
+}
+
+/*mission section*/
+#mission {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../images/img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+}
+#mission h2, #mission h4 {
+  background-color: black;
+}
+.mission-content {
+  width: 100%;
+}
+
+/*featured section*/
+#featured {
+  width: 1000px;
+  margin: 70px auto;
+}
+#featured img {
+  width: 300px;
+  height: 200px;
+}
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#cards h4 {
+  margin: 10px;
+}
+.card {
+  padding: 5px 15px;
+}
+
+/*locations section*/
+#locations {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url(../images/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.locations {
+  /*margin: 0 auto;*/
+  display: flex;
+  justify-content: center;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+/*contact section*/
+#contact {
+  height: 200px;
+}
